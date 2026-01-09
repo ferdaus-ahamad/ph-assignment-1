@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+nav{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-left,
+.nav-center,
+.nav-right{
+  flex: 1;
+}
+
+.nav-center{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-right{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn{
+  background: #2f8f5b;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* HERO */
+#hero{
+  background-image: url("../Sections/assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: rgba(11,44,61,0.85);
+  background-blend-mode: overlay;
+
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+}
+
+.hero-content{
+  max-width: 700px;
+}
+
+.hero-heading{
+  background: #e8f5ee;
+  color: #2f8f5b;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.hero-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-white{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+/* NOTES */
+.notes {
+  max-width: 1200px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.notes h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b2c3d;
+}
+
+.notes-subtitle {
+  margin-top: 12px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: #6c7a89;
+}
+
+.notes-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.note-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 40px 25px;
+  flex: 1;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.note-card img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 25px;
+}
+
+/* Text */
+.note-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #0b2c3d;
+}
+
+.note-card p {
+  font-size: 15px;
+  color: #6c7a89;
+  line-height: 1.6;
+}
+
+
+
+/* BRAIN */
+.brain {
+  padding: 100px 20px;
+  background: #ffffff;
+}
+
+.brain-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.brain-image img {
+  width: 520px;
+  max-width: 100%;
+}
+.brain-content {
+  max-width: 520px;
+}
+.brain-solution {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f8f5b;
+  letter-spacing: 1.2px;
+  margin-bottom: 14px;
+}
+.brain-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b2c3d;
+  line-height: 1.3;
+  margin-bottom: 18px;
+}
+
+/* Description */
+.brain-desc {
+  font-size: 16px;
+  color: #6c7a89;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+.brain-content ul{
+  margin-top: 20px;
+}
+
+.brain-content li{
+  margin-bottom: 10px;
+}
+
+
+/* EARLY ACCESS SECTION eas
+ */
+
+.eas{
+  width: 100vw;
+  background-color: #f6f6f6;
+  padding: 100px 20px;
+  text-align: center;}
+
+.eas h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b2c3d;
+  margin-bottom: 16px;
+}
+.eas p {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6c7a89;
+}
+
+.eas .btn {
+  display: inline-block;
+  margin: 24px auto;
+  padding: 14px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+
+/* FOOTER */
+footer {
+  background: #0b2c3d;
+  color: white;
+    padding: 60px 20px 30px;
+}
+
+.footer-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left img {
+  height: 40px;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.social-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+
+.social {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+}
+
+.social img {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.social img:hover {
+  opacity: 1;
+}
+.footer-divider {
+  max-width: 1140px;
+  margin: 40px auto 20px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.75;
+}
